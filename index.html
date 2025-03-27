@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./Assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="projects.css">
+    <title>Swaraj Harode</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar nav-response">
+            <nav>
+                <div class="nav">
+                    <a href="index.html"><img src="Assets/logo.png" alt="swaraj" class="logo"></a>
+                    <ul id="side-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Swaraj</span> <br>Harode from GHRCEM</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------about me-------- -->
+
+    <div id="about">
+        <div class="main-container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="Assets/user-img.png" alt="my-img">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Hi, I'm Swaraj Harode, a third-year B.Tech student at G.H. Raisoni College of Engineering and
+                        Management in Nagpur. I'm really into frontend development and UI/UX design. I have a good grasp
+                        of design principles and CSS. I'm always eager to learn new things, and I love tackling
+                        innovative
+                        projects. I'm excited to use my skills to make a positive impact in web development.
+
+                    <div class="tabs">
+                        <div class="tab-links active-link" onclick="opentab(event, 'education')">Education</div>
+                        <div class="tab-links" onclick="opentab(event, 'skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab(event, 'experince')">Experionce</div>
+                    </div>
+                    <div class="tab-content active-tab" id="education">
+                        <ul>
+                            <li><span>Current</span><br> B.Tech in Computer Science and Engineering <br>at GH Raisoni
+                                College of Engineering and Management</li>
+                            <li><span>Past Education</span> <br>
+                                <ul>
+                                    <li>Higher Education <br>Shri Umiya Shankar Narayanji High School & Junior College
+                                    </li>
+                                    <li>Secondary Education<br>Vidya Niketan Convent & Junior College</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design websites and apps interface</li>
+                            <li><span>Web development</span><br>Web App development</li>
+                            <li><span>App development</span><br>Building ios</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experince">
+                        <ul>
+                            <li><span>Codsoft</span><br>1-6-24 to 30-6-24</li>
+                            <li><span>Dsa in java</span><br>17-5-24 to 9-9-24</li>
+                        </ul>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------my-projects-------- -->
+
+    <div id="projects">
+        <div class="main-container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assets/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, reprehenderit blanditiis
+                            temporibus aspernatur deleniti atque. Aliquam, quisquam placeat nesciunt voluptas dicta at
+                            porro!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets/work-2.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, reprehenderit blanditiis
+                            temporibus aspernatur deleniti atque. Aliquam, quisquam placeat nesciunt voluptas dicta at
+                            porro!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets/work-3.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, reprehenderit blanditiis
+                            temporibus aspernatur deleniti atque. Aliquam, quisquam placeat nesciunt voluptas dicta at
+                            porro!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="projects.html" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ---------footer--------- -->
+
+    <div class="main-container">
+        <div class="logo">
+            <a href="index.html"><img src="Assets/logo.png" alt="swaraj" class="logo"></a>
+        </div>
+        <p>Ouick Links</p>
+        <div class="footer">
+            <div class="footer-left">
+                <div class="social-links">
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-item">
+                    <p>About Swaraj</p>
+                    <p><a href="index.html#about">About me</a></p>
+                    <p><a href="privacy.html">Privacy Policy</a></p>
+                </div>
+                <div class="footer-item">
+                    <p>Developer</p>
+                    <p><a href="projects.html">Projects</a></p>
+                </div>
+                <div class="footer-item">
+                    <p>Connect with me</p>
+                    <p><a href="mailto:connect@swarajharode.com">Get in Touch</a></p>
+                    <p><a href="contact.html">Work with me</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p>&copy; 2025 Swaraj Harode. All rights reserved.</p>
+        </div>
+    </div>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

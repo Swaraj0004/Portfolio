@@ -1,0 +1,181 @@
+@media(max-width:2560px) {
+    .nav-response {
+        max-height: 1440px;
+    }
+
+    .header {
+        height: 1440px;
+        width: 100%;
+    }
+}
+
+@media(max-width:1920px) {
+    .nav-response {
+        max-height: 1080px;
+    }
+
+    .header {
+        height: 1080px;
+        width: 100%;
+    }
+}
+
+@media(max-width:1440px) {
+    .nav-response {
+        max-height: 810px;
+    }
+
+    .header {
+        height: 810px;
+        width: 100%;
+    }
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 28px;
+    }
+
+    .header-text h1 {
+        font-size: 56px;
+        margin-top: 18px;
+        width: 50%;
+    }
+    
+    .row .col-1{
+        flex-basis: 35%;
+        margin: auto;
+    }
+    
+    .row .col-1 img{
+        width :100%;
+        border-radius: 15px;
+    }
+    
+    .row .col-2{
+        flex-basis: 60%;
+        text-align: justify;
+    }
+    
+}
+
+@media(max-width:1024px) {
+    .header {
+        background-image: url(Assets/phone-background.png);
+    }
+
+    .nav-response {
+        height: 100vh;
+    }
+
+    .header {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 26px;
+    }
+
+    .header-text h1 {
+        font-size: 48px;
+        margin-top: 16px;
+    }
+
+    .row .col-1{
+        flex-basis: 50%;
+        margin: auto;
+    }
+    
+    .row .col-1 img{
+        min-height: 370px;
+        min-width: 300px;
+    }
+    
+    .row .col-2{
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width:850px) {
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 22px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+        margin-top: 13px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 38px;
+        margin-top: 12px;
+    }
+}
+
+@media(max-width:600px) {
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 36px;
+        margin-top: 12px;
+    }
+}
+
+@media(max-width:425px) {
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 18px;
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    .row .col-1 img{
+        min-height: 370px;
+        min-width: 265px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+        margin-top: 9px;
+    }
+}
+
+@media(max-width:320px) {
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 14px;
+    }
+
+    .header-text h1 {
+        font-size: 28px;
+        margin-top: 7px;
+    }
+}
