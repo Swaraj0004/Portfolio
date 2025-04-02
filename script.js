@@ -1,5 +1,3 @@
-
-
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-content");
 
@@ -15,6 +13,7 @@ function opentab(event, tabname) {
 }
 
 
+
 var sidemenu = document.getElementById("side-menu");
 
 function openmenu() {
@@ -24,3 +23,16 @@ function openmenu() {
 function closemenu() {
     sidemenu.style.right = "-200px";
 }
+
+
+
+const seeMoreBtn = document.getElementById('see-more-btn');
+const hiddenTabs = document.querySelectorAll('.hidden');
+
+seeMoreBtn.addEventListener('click', () => {
+    hiddenTabs.forEach(tab => {
+        tab.style.display = 'block';
+    });
+
+    seeMoreBtn.style.display = 'none';
+});

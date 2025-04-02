@@ -1,7 +1,22 @@
+.hidden {
+    display: none; 
+}
+
 @media(max-width:1920px){
 
     .sub-title{
         font-size: 58px;
+    }
+
+    .layer a{
+        margin-top: 13px;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .layer p{
+        font-size: 14px;
     }
 }
 
@@ -12,7 +27,7 @@
     }
 
     .layer p{
-        font-size: 19px;
+        font-size: 16px;
     }
 }
 
@@ -22,16 +37,23 @@
         font-size: 54px;
     }
 
+    .layer a{
+        margin-top: 10px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
     .layer h3{
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .layer a{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .layer p{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .btn{
@@ -47,13 +69,6 @@
     .sub-title{
         font-size: 52px;
     }
-
-    .layer a{
-        margin-top: 15px;
-        line-height: 50px;
-        width: 50px;
-        height: 50px;
-    }
 }
 
 @media(max-width:700px){
@@ -63,15 +78,11 @@
     }
 
     .layer h3{
-        font-size: 20px;
-    }
-    
-    .layer a{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .layer p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .btn{
@@ -87,10 +98,6 @@
     }
 
     .layer h3{
-        font-size: 18px;
-    }
-    
-    .layer a{
         font-size: 15px;
     }
 
@@ -116,9 +123,6 @@
         font-size: 44px;
     }
     
-    .layer a{
-        font-size: 14px;
-    }
 }
 
 @media(max-width:425px){
@@ -140,15 +144,11 @@
     }
 
     .layer h3{
-        font-size: 16px;
-    }
-    
-    .layer a{
         font-size: 14px;
     }
 
     .layer p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .btn{
@@ -161,18 +161,6 @@
 
     .sub-title{
         font-size: 34px;
-    }
-
-    .layer h3{
-        font-size: 16px;
-    }
-    
-    .layer a{
-        font-size: 14px;
-    }
-
-    .layer p{
-        font-size: 12px;
     }
 
     .btn{
